@@ -58,7 +58,7 @@ export default function LoginPage() {
           <Input
             label="Email"
             type="email"
-            placeholder="hr.admin@bfiaps.com"
+            placeholder="hr.admin@example.com"
             error={errors.email?.message}
             {...register("email", { required: "Email is required." })}
           />
